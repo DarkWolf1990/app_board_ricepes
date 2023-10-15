@@ -1,5 +1,7 @@
 from django.db import models
 
+from django.contrib.auth.models import User
+
 
 # Create your models here.
 
@@ -26,3 +28,8 @@ class Rubric(models.Model):
 
 class Meta:
     verbose_name_plural = 'Рубрики'
+
+
+class AdvUser(models.Model):
+    is_activated = models.BooleanField(default=True)
+    user = models.OneToOneField(User, on_delete=models.CASCADE)
