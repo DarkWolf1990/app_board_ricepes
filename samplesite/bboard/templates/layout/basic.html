@@ -9,6 +9,7 @@
 <body>
 <header>
     <h1>Рецепты</h1>
+    <img class="chef" src="{% static 'bboard/chef.png'%}" alt="chef">
 </header>
 <nav>
     <a href="{% url 'index' %}"> Главная </a>
@@ -22,4 +23,9 @@
     {% endblock %}
 </section>
 </body>
+<footer>
+    <div class="link_license">
+    <a href="http://www.freepik.com">Designed by katemangostar / Freepik</a>
+</div>
+</footer>
 </html>

@@ -6,11 +6,19 @@ body{
     background-color: #bebefd;
 }
 
+.chef{
+    max-width: 90px;
+    max-height: 90px;
+    margin-left: 30px;
+}
+
 header h1{
     margin-top: 10px;
     font-size: 40pt;
     text-transform: uppercase;
     text-align: center;
+
+
 
 }
 nav{
@@ -26,3 +34,8 @@ nav a{
 section{
     margin-left: 170px;
 }
+
+.link_license{
+    margin-top: 25px;
+}
+
